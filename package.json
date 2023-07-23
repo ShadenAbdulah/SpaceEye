@@ -1,0 +1,21 @@
+{
+  "name": "summer-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "postcss ./css/style.css -o public/tailwind.css",
+    "watch": "postcss ./css/style.css -o public/tailwind.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.26",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.4.2"
+  }
+}

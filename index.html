@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+        <link href="public/tailwind.css" rel="stylesheet">
+    </head>
+    <body>
+    <div class="mx-auto justify-stretch mt-40">
+            <div class="grid grid-cols-2 w-72 mx-auto mt-40 sm:w-80 xl:w-1/2">
+                <div class="w-44 sm:-ml-11 xl:mx-auto xl:ml-36">
+                    <img src="images/logo.png" alt="website logo" style="justify-self: center;"/>
+                </div>
+                <h2 class="my-12 mx-0 font-bold text-2xl sm:text-5xl sm:-ml-16" >  Space<span class="text-purple-800" >Eye</span></h2>
+            </div>
+            <div class="w-96 text-justify mx-auto mt-10">
+                <p class="font-thin">
+                    Space is a three-dimensional continuum containing positions and directions. 
+                    In classical physics, physical space is often conceived in three linear dimensions. 
+                    Modern physicists usually consider it, with time, to be part of a boundless four-dimensional continuum known as spacetime.
+                </p>
+            </div>  
+            <a href="#planets"><div class="mx-auto w-96 mt-20 bg-purple-100 rounded-xl hover:bg-purple-50 hover:pl-32 hover:transition-all transition-all">
+                <span class="flex text-lg py-3 mx-auto justify-center font-mono">Explore Space <span class="mx-4 my-1"><svg class="w-5 h-5 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"></path>
+                </svg></span></span>
+            </div></a>
+        </div>
+        <section id="planets">
+            <div class="bg-gray-50 w-full block md:grid md:grid-cols-2 xl:grid xl:grid-cols-3 justify-center mx-auto mt-52 py-20">
+                <div class="w-1/2 mx-auto mt-10 mb-52 xl:my-10 h-96 border border-transparent rounded-xl shadow-md hover:shadow-2xl hover:transition-all transition-all bg-gray-50 p-5">
+                    <img src="images/earth.png" alt="earth image" class="-mt-32 p-10 hover:p-5 hover:transition-all transition-all"/>
+                    <h1 class="uppercase text-3xl font-bold text-center -mt-8">e a r h</h1>
+                    <p class="font-thin text-justify mt-10">Earth, our home planet, is a world unlike any other. The third planet from the sun, 
+                        Earth is the only place in the known universe confirmed to host life.
+                    </p>
+                    <div class="mx-auto w-32 bg-purple-100 rounded-xl my-8 p-2 hover:bg-purple-200 hover:w-48 hover:font-semibold hover:transition-all transition-all">
+                        <span class="flex text-lg text-center font-mono justify-center">Visit</span>
+                    </div> 
+                </div>
+
+                <div class="w-1/2 mx-auto mt-10 mb-52 xl:my-10 h-96 border border-transparent rounded-xl shadow-md hover:shadow-2xl hover:transition-all transition-all bg-gray-50 p-5">
+                    <img src="images/jupiter.png" alt="jupiter image" class="-mt-32 p-10  hover:p-5 hover:transition-all transition-all"/>
+                    <h1 class="uppercase text-3xl font-bold text-center -mt-8">j u p i t e r</h1>
+                    <p class="font-thin text-justify mt-10">Jupiter is the largest planet in the solar system and the fifth planet from the sun. 
+                        The gas giant has a long, rich, history of surprising scientists.
+                    </p>
+                    <div class="mx-auto w-32 bg-purple-100 rounded-xl my-8 p-2 hover:bg-purple-200 hover:w-48 hover:font-semibold hover:transition-all transition-all">
+                        <span class="flex text-lg text-center font-mono justify-center">Visit</span>
+                    </div> 
+                </div>
+
+                <div class="w-1/2 mx-auto mt-10 mb-52 xl:my-10 h-96 border border-transparent rounded-xl shadow-md hover:shadow-2xl hover:transition-all transition-all bg-gray-50 p-5">
+                    <img src="images/mars.png" alt="mars image" class="-mt-32 p-10  hover:p-5 hover:transition-all transition-all"/>
+                    <h1 class="uppercase text-3xl font-bold text-center -mt-8">m a r s</h1>
+                    <p class="font-thin text-justify mt-10">Mars is the fourth planet from the sun and has a distinct rusty 
+                        red appearance and two unusual moons. 
+                    </p>
+                    <div class="mx-auto w-32 bg-purple-100 rounded-xl my-14 p-2 hover:bg-purple-200 hover:w-48 hover:font-semibold hover:transition-all transition-all">
+                        <span class="flex text-lg text-center font-mono justify-center">Visit</span>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+    <script src="script.js"></script>
+
+    </body>
+</html>
